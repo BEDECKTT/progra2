@@ -1,0 +1,16 @@
+00 LEE 1009     // Leer el primer número en la ubicación de memoria 1009
+01 CARGA 1010   // Cargar el acumulador con el segundo número en la ubicación de memoria 1010
+02 SUMA 1009    // Sumar el primer número al acumulador
+03 ALMACENA 1010  // Almacenar el resultado en la ubicación de memoria 1010
+04 RESTA 1009   // Restar el primer número al acumulador
+05 BRINCARNEG 000C  // Saltar a la ubicación 0C si el acumulador es negativo
+06 RESTA 1009   // Restar el primer número al acumulador
+07 BRINCARN 000E  // Saltar a la ubicación 0E si el acumulador es negativo
+08 ALMACENA 100A  // Almacenar el acumulador en la ubicación de memoria 100A
+09 SUMA 1010    // Sumar el segundo número al acumulador
+0A ALMACENA 1010  // Almacenar el acumulador en la ubicación de memoria 1010
+0B BRINCAR 0000  // Saltar a la ubicación 00 para continuar la lectura
+0C IMPRIMIR 100A  // Imprimir la suma
+0D FIN  // Finalizar el programa
+0E IMPRIMIR 100A  // Imprimir la suma (cuando solo se ingresó un número)
+0F FIN  // Finalizar el programa

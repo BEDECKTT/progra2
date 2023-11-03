@@ -1,0 +1,11 @@
+00 LEE 1009     // Leer la cantidad de números a procesar
+01 CARGA 1009   // Cargar el acumulador con la cantidad de números
+02 RESTA 1007    // Restar 7 para verificar si se han leído todos los números
+03 BRINCARN 0010  // Saltar a la ubicación 10 si se han leído todos los números
+04 LEE 1010     // Leer un número en la ubicación de memoria 1010
+05 CARGA 1011   // Cargar el acumulador con el número más grande hasta ahora
+06 RESTA 1010    // Restar el número leído al acumulador
+07 BRINCARNEG 000A  // Saltar a la ubicación 0A si el número leído es menor
+08 ALMACENA 1011  // Almacenar el nuevo número más grande
+09 BRINCAR 0004  // Saltar de regreso para leer el siguiente número
+0A

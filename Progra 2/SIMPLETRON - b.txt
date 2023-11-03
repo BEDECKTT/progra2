@@ -1,0 +1,23 @@
+00 LEE 1009     // Leer el primer número en la ubicación de memoria 1009
+01 CARGA 1010   // Cargar el acumulador con el segundo número en la ubicación de memoria 1010
+02 SUMA 1009    // Sumar el primer número al acumulador
+03 ALMACENA 1010  // Almacenar el resultado en la ubicación de memoria 1010
+04 CARGA 1011   // Cargar el acumulador con el tercer número en la ubicación de memoria 1011
+05 SUMA 1009    // Sumar el primer número al acumulador
+06 ALMACENA 1011  // Almacenar el resultado en la ubicación de memoria 1011
+07 CARGA 1012   // Cargar el acumulador con el cuarto número en la ubicación de memoria 1012
+08 SUMA 1009    // Sumar el primer número al acumulador
+09 ALMACENA 1012  // Almacenar el resultado en la ubicación de memoria 1012
+0A CARGA 1013   // Cargar el acumulador con el quinto número en la ubicación de memoria 1013
+0B SUMA 1009    // Sumar el primer número al acumulador
+0C ALMACENA 1013  // Almacenar el resultado en la ubicación de memoria 1013
+0D CARGA 1014   // Cargar el acumulador con el sexto número en la ubicación de memoria 1014
+0E SUMA 1009    // Sumar el primer número al acumulador
+0F ALMACENA 1014  // Almacenar el resultado en la ubicación de memoria 1014
+10 CARGA 1015   // Cargar el acumulador con el séptimo número en la ubicación de memoria 1015
+11 SUMA 1009    // Sumar el primer número al acumulador
+12 ALMACENA 1015  // Almacenar el resultado en la ubicación de memoria 1015
+13 DIVIDE 1007   // Dividir la suma por 7
+14 ALMACENA 1016  // Almacenar el promedio en la ubicación de memoria 1016
+15 IMPRIMIR 1016  // Imprimir el promedio
+16 FIN  // Finalizar el programa
